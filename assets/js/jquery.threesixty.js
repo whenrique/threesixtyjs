@@ -132,7 +132,7 @@ var scope,
             j = 0;
             for(j; j < data[i].count; j++){
                 url = data[i].path.replace('{index}', j);
-                $('<img/>').data('index', i).attr('src', url).load(this.onLoadComplete);
+                $('<img/>').data('index', i).attr('src', url).on('load', this.onLoadComplete);
             }
         }
     };
