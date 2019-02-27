@@ -1,0 +1,23 @@
+{
+  "name": "threesixtyjs",
+  "version": "0.1.2",
+  "description": "A jQuery plugin for generating a draggable 360 preview from an image sequence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nick-jonas/threesixtyjs.git"
+  },
+  "keywords": [
+    "threesixtyjs",
+    "threesixty"
+  ],
+  "author": "Nick Jonas <nick@workofjonas.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nick-jonas/threesixtyjs/issues"
+  },
+  "homepage": "https://github.com/nick-jonas/threesixtyjs#readme"
+}
